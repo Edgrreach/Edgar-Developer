@@ -1,2 +1,4 @@
 este es un documento
 comun y cualquiera
+
+este es version 2
