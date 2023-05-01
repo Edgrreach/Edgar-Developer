@@ -1,4 +1,1 @@
-este es un documento
-comun y cualquiera
-
-este es version 2
+Vamos a comenzar el proyecto.
