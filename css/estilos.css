@@ -1,4 +1,15 @@
 body{
+    color: gray;
     text-align: center;
     font-family: sans-serif;
+    align-items: center;
+    
+}
+
+.container{
+   
+    width: 20rem;
+    padding: 1rem;
+    height: auto;
+    border: solid 1px black;
 }
