@@ -4,12 +4,26 @@ body{
     font-family: sans-serif;
     align-items: center;
     
+    
 }
 
+.cabecera{
+    display: flex;
+    background-color: blue;
+    color: white;
+}
+.cabecera h2{
+    padding: 0 5px;
+}
 .container{
-   
+    display: flex;
+    justify-content: space-around;
+}
+.dentro{
+    
     width: 20rem;
     padding: 1rem;
     height: auto;
     border: solid 1px black;
 }
+
