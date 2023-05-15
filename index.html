@@ -5,17 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>DEVELOPER- EDGAR</title>
+    <link rel="shortcut icon" href="img/LOGO-NAV.svg" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DEVELOPER WEB - EDGAR</title>
+
+    <style>
+        body{
+           
+        }
+    </style>
 </head>
 <body>
-    <div class="cabecera">
-        <h2>faceblog</h2>
-    </div>
-    <div class="container">
-            <h1>Aqui vamos a crear un Blog Post y va a servir para mejorar en GIT🕵️‍♂️</h1>
-            <p>Este es el primer parrafo de nuestro Blog y voy a hacer mi web de presentación</p>  
-    </div>
-    </div>
+    <!--HEADER-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="navL">
+                <img src="img/LOGO-NAV.svg" alt="logo" class="navL-img">
+                Edgar Developer
+            </a>
+            <div class="navM" id="nav-menu">
+                <ul class="navList">
+                    <li class="navItem"><a href="#home" class="navLink active-link">Inicio</a></li>
+                    <li class="navItem"><a href="#about" class="navLink ">About</a></li>
+                    <li class="navItem"><a href="#skills" class="navLink ">Skills</a></li>
+                    <li class="navItem"><a href="#portfolio" class="navLink ">Portfolio</a></li>
+                    <li class="navItem"><a href="#marcas" class="navLink ">Colaboraciones</a></li>
+                </ul>
+            </div>
+            <div class="navClose" id="nav-close">
+                <i class='bx bx-x'></i>
+            </div>
+            <div class="navToggle" id="nav-toggle">
+                <i class='bx bxs-grid'></i>
+            </div>
+        </nav>     
+    </header>
+
+    <main class="main">
+        <section class="home container" id="home">
+            <div class="swiper home-swiper">
+                <div class="swiper-wrapper">
+                    <section>
+                        <div class="homecont grid">
+                            <div class="homedata">
+                                <h1 class="hometitle">prueba1 <br>insum <br>lorem <br> insum</h1>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Deserunt, sapiente temporibus deleniti aut nemo cupiditate
+                                     fugit beatae omnis eligendi, voluptate vero cum? Architecto reprehenderit
+                                      totam assumenda enim soluta reiciendis ullam.
+                                </p>
+                                <div class="homebut">
+                                    <a href="#" class="button">Servicio</a>
+                                    <a href="#" class="button">Productos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
     
     
 </body>
